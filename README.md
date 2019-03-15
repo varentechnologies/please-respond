@@ -19,7 +19,7 @@ Your program should connect to the Meetup.com RSVP HTTP data stream at http://st
 
 - Meetup RSVP reference: https://www.meetup.com/meetup_api/docs/stream/2/rsvps/
 
-You may assume that the input files are correctly formatted. Error handling for invalid input files may be ommitted.
+You may assume that the input files are correctly formatted. Error handling for invalid input files may be omitted.
 
 ### Output Format
 The output will specify the aggregate calculated information in a comma-delimited format.
