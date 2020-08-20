@@ -1,17 +1,31 @@
 package com.varentechnologies.pleaserespond.meetup.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 @JsonIgnoreProperties
-public class Venue {
+public class Event {
 
-    private String country;
+    // UTC start time of the event, in milliseconds since the epoch
+    @JsonProperty("time")
+    private long time;
 
-    public String getCountry() {
-        return country;
+    @JsonProperty("event_url")
+    private String eventUrl;
+
+    public long getTime() {
+        return time;
     }
 
-    public void setCountry(String country) {
-        this.country = country;
+    public void setTime(long time) {
+        this.time = time;
+    }
+
+    public String getEventUrl() {
+        return eventUrl;
+    }
+
+    public void setEventUrl(String eventUrl) {
+        this.eventUrl = eventUrl;
     }
 }

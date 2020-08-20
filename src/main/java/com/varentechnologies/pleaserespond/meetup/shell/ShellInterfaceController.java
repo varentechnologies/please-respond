@@ -30,6 +30,6 @@ public class ShellInterfaceController {
     public void stream(int seconds) throws ExecutionException, InterruptedException, JsonProcessingException {
         LOG.info("\n{} second stream report requested", seconds);
 
-        meetupService.openTemporaryStream(seconds);
+        meetupService.processTemporaryStream(seconds);
     }
 }
