@@ -37,13 +37,12 @@ public class ProcessMeetupRsvps
 		}
 	}
 
-	private void processRsvps() throws
-	                            InterruptedException {
+	private void processRsvps() {
 
 		logger.info("Starting in ProcessRsvps");
 
 		JsonNode jsonNode;
-		String anRsvp = null;
+		String anRsvp;
 		String countryCode;
 		try {
 			anRsvp = blockingQueue.take();          //priming queue read

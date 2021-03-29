@@ -48,7 +48,7 @@ public class GetMeetupRsvps
 			connection.setInstanceFollowRedirects(true);
 			if (connection.getResponseCode() == HttpURLConnection.HTTP_MOVED_PERM
 					|| connection.getResponseCode() == HttpURLConnection.HTTP_MOVED_TEMP) {
-				logger.warn("I got one of the Moved bad boys: '{}, {} '", connection.getResponseCode(),
+				logger.debug("I got one of the Moved bad boys: '{}, {} '", connection.getResponseCode(),
 						connection.getResponseMessage()
 				           );
 
