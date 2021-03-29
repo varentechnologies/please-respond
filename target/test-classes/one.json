@@ -1,0 +1,56 @@
+{
+  "venue": {
+    "venue_name": "Online event",
+    "lon": 179.1962,
+    "lat": -8.521147,
+    "venue_id": 26906060
+  },
+  "visibility": "public",
+  "response": "yes",
+  "guests": 1,
+  "member": {
+    "member_id": 323867690,
+    "photo": "https:\/\/secure.meetupstatic.com\/photos\/member\/5\/7\/2\/c\/thumb_302962316.jpeg",
+    "member_name": "Maggie A."
+  },
+  "rsvp_id": 1860180743,
+  "mtime": 1609802543024,
+  "event": {
+    "event_name": "Code on Tap (Dependent on Ability to Meet in Person)",
+    "event_id": "srpctrycccbqb",
+    "time": 1610496000000,
+    "event_url": "https:\/\/www.meetup.com\/Northwest-Arkansas-Developers-Group\/events\/268323406\/"
+  },
+  "group": {
+    "group_topics": [
+      {
+        "urlkey": "computer-programming",
+        "topic_name": "Computer programming"
+      },
+      {
+        "urlkey": "mobile-development",
+        "topic_name": "Mobile Development"
+      },
+      {
+        "urlkey": "web-development",
+        "topic_name": "Web Development"
+      },
+      {
+        "urlkey": "technology",
+        "topic_name": "Technology"
+      },
+      {
+        "urlkey": "softwaredev",
+        "topic_name": "Software Development"
+      }
+    ],
+    "group_city": "Rogers",
+    "group_country": "us",
+    "group_id": 19264954,
+    "group_name": "Northwest Arkansas Developers Group",
+    "group_lon": -94.03,
+    "group_urlname": "Northwest-Arkansas-Developers-Group",
+    "group_state": "AR",
+    "group_lat": 36.32
+  }
+}
